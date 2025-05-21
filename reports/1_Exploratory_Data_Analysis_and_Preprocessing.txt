@@ -1,0 +1,9 @@
+The first segment of the project focused on understanding and preparing the dataset for machine learning. This began with a thorough exploratory data analysis (EDA), where the distributions and relationships of key features were visualized and interpreted.
+
+Based on both domain knowledge and statistical insights, non-informative or redundant columns—such as identifiers and features with uniform distributions—were removed to streamline the dataset. The data was then checked for missing values, confirming its completeness and allowing the workflow to proceed without imputation.
+
+Categorical features were encoded using a combination of label encoding, ordinal mapping, and one-hot encoding, ensuring all variables were in a suitable numerical format for modeling. Numerical features were standardized or normalized to bring them onto a common scale, improving model stability.
+
+A correlation matrix was generated to identify and address multicollinearity, and feature importance was assessed using a Random Forest classifier, guiding the selection of the most relevant predictors.
+
+Finally, the dataset was split into training, validation, and test sets using stratified sampling to maintain class balance, and class imbalance was addressed through random undersampling. This comprehensive preprocessing pipeline established a robust foundation for effective model training and evaluation.

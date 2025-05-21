@@ -1,0 +1,7 @@
+The final segment involved a comprehensive evaluation of the tuned models and the stacking ensemble on the unseen test set. Each model’s performance was assessed using a suite of metrics, including accuracy, precision, recall, F1-score, and confusion matrices, providing a clear picture of their generalization capabilities.
+
+This evaluation highlighted the comparative strengths and weaknesses of both individual and ensemble approaches, informing the selection of the most effective model for deployment.
+
+The results demonstrated that the chosen solution not only achieved high overall accuracy but also maintained strong recall for fraudulent claims, which is critical for real-world insurance fraud detection.
+
+This rigorous testing phase validated the effectiveness of the entire workflow and ensured the reliability of the deployed model.

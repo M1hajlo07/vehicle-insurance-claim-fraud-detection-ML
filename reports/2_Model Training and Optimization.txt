@@ -1,0 +1,7 @@
+The second segment centered on building, evaluating, and optimizing machine learning models for fraud detection. Initially, several classification algorithms—including Decision Tree, K-Nearest Neighbors, Support Vector Machine, Random Forest, and XGBoost—were trained on the balanced dataset and compared using accuracy, recall, precision, and confusion matrices.
+
+This comparative analysis highlighted the strengths of SVM, Random Forest, and XGBoost, particularly in identifying fraudulent claims. These models were then subjected to rigorous hyperparameter tuning using randomized search with cross-validation, optimizing for key metrics such as recall and F1-score. The best configurations for each model were selected based on their validation performance.
+
+To further enhance predictive power, a stacking ensemble was constructed, combining the strengths of the top-performing models with an XGBoost meta-learner. The ensemble was trained and evaluated, demonstrating improved robustness and accuracy over individual models.
+
+This segment ensured that the final models were both highly accurate and capable of effectively identifying the minority fraud class.
